@@ -71,6 +71,9 @@ header span {
 }
 
 .about-section .wrapper {
+  display: flex;
+  gap: 60px;
+
   /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -93,6 +96,7 @@ select:hover,
 }
 
 .info-wrapper {
+  display: flex;
   /* 📍 Свойство flexbox для расположения 2-х списков в ряд */
 }
 
@@ -109,6 +113,7 @@ select:hover,
 
 .frameworks-list,
 .books-list {
+  display: flex;
   /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
@@ -120,10 +125,14 @@ select:hover,
 }
 
 .skills-block {
+  display: flex;
+  flex-direction: column-reverse;
   /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
 .skills {
+  display: flex;
+  gap: 20px;
   /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
